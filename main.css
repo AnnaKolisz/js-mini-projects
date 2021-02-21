@@ -8,17 +8,23 @@
 :root{
     --main-color: #42493a;
     --green: #74b72e;
-    --very-light: #f7fbf1;
+    --very-light: #f6edd9;
     --grey: #a6ae9c;
 
 }
 
-.body {
-    height: 100vh;
+body {
+    margin: 0;
     font-size: 16px;
     color: var(--main-color);
-    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 90px 1fr 30px; 
 }
+
+
+
+
 
 .header{
     text-align: center;
@@ -29,7 +35,9 @@
 .container{
     padding: 1rem;
     max-height: 100%;
-    background-color: #f7fbf1;
+    background-color: var(--very-light);
+    display: flex;
+    flex-direction: row;
 }
 
 .container__item {
@@ -37,11 +45,13 @@
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid var(--grey);
+    height: 11rem;
 }
 
 .container__title{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    margin: 0.5rem;
 }
 
 .container__description{
@@ -53,8 +63,7 @@
 }
 
 footer {
-    height: 3rem;
-    padding: 5px;
+    padding: 0.5em;
     font-size: 12px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;

@@ -4,8 +4,23 @@ const projects =
             "title": "Hidden search",
             "description": "This is widget, when you click icon of search it shows input to write string for search",
             "link": "./hidden_search_widtge/index.html"
+        },
+        {
+            "title": "Expanding cards",
+            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "link": "./expanding_cards/index.html"
+        },
+        {
+            "title": "Progress step",
+            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "link": "./progress_step/index.html"
+        },
+        {
+            "title": "Rotating navigation",
+            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "link": "./Rotating_navigation/index.html"
+        },
 
-        }
 
     ];
 

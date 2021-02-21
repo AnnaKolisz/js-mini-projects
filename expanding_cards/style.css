@@ -52,23 +52,23 @@ body{
 }
 
 .panel--birds{
-    background-image: url('/photos/pexels-george-desipris-760984.jpg');
+    background-image: url('./photos/pexels-george-desipris-760984.jpg');
 }
 
 .panel--medusa{
-    background-image: url('/photos/pexels-oday-hazeem-130621.jpg');
+    background-image: url('./photos/pexels-oday-hazeem-130621.jpg');
 }
 
 .panel--sunset{
-    background-image: url('/photos/pexels-pixabay-210354.jpg');
+    background-image: url('./photos/pexels-pixabay-210354.jpg');
 }
 
 .panel--green{
-    background-image: url('/photos/pexels-jeswin-thomas-2860870.jpg');
+    background-image: url('./photos/pexels-jeswin-thomas-2860870.jpg');
 }
 
 .panel--beach{
-    background-image: url('/photos/pexels-pok-rie-4440296.jpg');
+    background-image: url('./photos/pexels-pok-rie-4440296.jpg');
 }
 
 @media(max-width: 480px){

@@ -7,17 +7,17 @@ const projects =
         },
         {
             "title": "Expanding cards",
-            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "description": "This could be nice for show galery of photos",
             "link": "./expanding_cards/index.html"
         },
         {
             "title": "Progress step",
-            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "description": "To show progres for 4 step",
             "link": "./progress_step/index.html"
         },
         {
             "title": "Rotating navigation",
-            "description": "This is widget, when you click icon of search it shows input to write string for search",
+            "description": "Project for menu, click button for hamburger menu i check where menu of page will show",
             "link": "./Rotating_navigation/index.html"
         },
 

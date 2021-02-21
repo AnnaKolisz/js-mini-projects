@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #42493a;
+    --green: #74b72e;
+    --very-light: #f7fbf1;
+    --grey: #a6ae9c;
+
+}
+
+.body {
+    height: 100vh;
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;  
+    color: var(--main-color);
+}
+
+.container{
+    padding: 1rem;
+    max-height: 100%;
+    background-color: #f7fbf1;
+}
+
+.container__item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--grey);
+}
+
+.container__title{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container__description{
+    font-family: 'Lato', cursive;
+}
+
+.container__link{
+    font-family: 'Lato', cursive; 
+}
+
+footer {
+    height: 3rem;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}

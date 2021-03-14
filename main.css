@@ -8,26 +8,25 @@
 :root{
     --main-color: #42493a;
     --green: #74b72e;
-    --very-light: #f6edd9;
+    --very-light: #dadada;
     --grey: #a6ae9c;
 
 }
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--main-color);
     height: 100vh;
+    width:100%;
     display: grid;
-    grid-template-rows: 90px 1fr 30px; 
+    grid-template-rows: 100px 1fr 25px; 
 }
-
-
-
-
 
 .header{
     text-align: center;
+    font-size: 11px;
+    padding:3px;
     font-family: 'Permanent Marker', cursive;  
     color: var(--main-color);
 }
@@ -37,15 +36,19 @@ body {
     max-height: 100%;
     background-color: var(--very-light);
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    overflow-y: auto;
+   
 }
 
 .container__item {
     background-color: #fff;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 1em;
+    border-radius: 1em;
     border: 2px solid var(--grey);
-    height: 11rem;
+    margin: 1% 2%;
+    flex: 0 0 46%;
+    position: relative;
 }
 
 .container__title{
@@ -59,12 +62,47 @@ body {
 }
 
 .container__link{
+    position: absolute;
     font-family: 'Lato', cursive; 
+    bottom: 1em;
+    left: 1em;
 }
 
 footer {
     padding: 0.5em;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+}
+
+@media only screen and (min-width: 480px) {
+ 
+    .header{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        grid-template-rows: 80px 1fr 25px; 
+    }
+
+    .header{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container__item {
+        flex: 0 0 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
 }

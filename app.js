@@ -12,12 +12,12 @@ const projects =
         },
         {
             "title": "Progress step",
-            "description": "To show progres for 4 step",
+            "description": "To showing progress for 4 step",
             "link": "./progress_step/index.html"
         },
         {
             "title": "Rotating navigation",
-            "description": "Project for menu, click button for hamburger menu i check where menu of page will show",
+            "description":  "Menu, click button of hamburger menu and check where menu of page will show",
             "link": "./Rotating_navigation/index.html"
         },
 

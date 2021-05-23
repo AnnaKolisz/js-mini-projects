@@ -23,8 +23,13 @@ const projects =
 
         {
             "title": "Button ripple effect",
-            "description": "Project for menu, click button for hamburger menu i check where menu of page will show",
+            "description": "Nice effect to show that button was clicked",
             "link": "./button_ripple_effect/index.html"
+        },
+        {
+            "title": "Blurry loading",
+            "description": "Project for menu, click button for hamburger menu i check where menu of page will show",
+            "link": "./blurry_loading/index.html"
         },
 
 

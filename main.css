@@ -3,9 +3,8 @@
 
 :root {
     box-sizing: border-box;
-    --main-color: #2F4858;
-    --mint: #BFE5D9;
-    --darker-mint: #9CC4C0
+    --main-color: #494454;
+    --darker: #635C75
 }
 
 *, ::before, ::after {
@@ -43,7 +42,8 @@ body{
 .container {
     padding: 1em;
     height: calc(100vh - 115px);
-    background-color: var(--mint);
+    
+background: linear-gradient(180deg, rgba(251,165,129,1) 30%, rgba(214,149,154,1) 60%, rgba(150,142,169,1) 100%);
     display: flex;
     flex-flow: row wrap;
     overflow-y: auto;
@@ -53,7 +53,7 @@ body{
     background-color: #fff;
     padding: 1em;
     border-radius: 1em;
-    border: 2px solid var(--darker-mint);
+    border: 2px solid var(--darker);
     margin: 1%;
     flex: 0 0 98%;
     position: relative;
@@ -64,7 +64,6 @@ body{
     font-family: 'Lato', cursive;
     font-weight: bold;
     margin: 0.5em;
-   // font-size: 11px;
 }
 
 .container__description {

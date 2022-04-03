@@ -31,6 +31,11 @@ const projects =
             "description": "Project for menu, click button for hamburger menu i check where menu of page will show",
             "link": "./blurry_loading/index.html"
         },
+        {
+            "title": "Scroll Animation",
+            "description": "Nice animation to load of element of page when scrolling",
+            "link": "./scroll-animation/index.html"
+        },
 
 
     ];

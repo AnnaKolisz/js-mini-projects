@@ -36,6 +36,11 @@ const projects =
             "description": "Nice animation to load of element of page when scrolling",
             "link": "./scroll-animation/index.html"
         },
+        {
+            "title": "Split Landing Page",
+            "description": "Presentation of two products by diving screen",
+            "link": "./split_loading_page/index.html"
+        },
 
 
     ];

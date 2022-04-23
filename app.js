@@ -1,9 +1,9 @@
 const projects =
     [
         {
-            "title": "Hidden search",
+            "title": "Hidden search widget",
             "description": "This is widget, when you click icon of search it shows input to write string for search",
-            "link": "./hidden_search_widtge/index.html"
+            "link": "./hidden_search_widget/index.html"
         },
         {
             "title": "Expanding cards",
@@ -18,7 +18,7 @@ const projects =
         {
             "title": "Rotating navigation",
             "description":  "Menu, click button of hamburger menu and check where menu of page will show",
-            "link": "./Rotating_navigation/index.html"
+            "link": "./rotating_navigation/index.html"
         },
 
         {
@@ -34,7 +34,7 @@ const projects =
         {
             "title": "Scroll Animation",
             "description": "Nice animation to load of element of page when scrolling",
-            "link": "./scroll-animation/index.html"
+            "link": "./scroll_animation/index.html"
         },
         {
             "title": "Split Landing Page",

@@ -41,6 +41,11 @@ const projects =
             "description": "Presentation of two products by diving screen",
             "link": "./split_loading_page/index.html"
         },
+        {
+            "title": "Form Wave Animation",
+            "description": "Form field with label floating like wave",
+            "link": "./form_wave_animation/index.html"
+        },
 
 
     ];

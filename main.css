@@ -23,7 +23,6 @@ body{
 .all-container{
     font-size: 12px;
     color: var(--main-color);
-   
     display: grid;
     grid-template-rows: 90px 1fr 25px;
 }
@@ -42,11 +41,12 @@ body{
 .container {
     padding: 1em;
     height: calc(100vh - 115px);
-    
-background: linear-gradient(180deg, rgba(251,165,129,1) 30%, rgba(214,149,154,1) 60%, rgba(150,142,169,1) 100%);
+    background: linear-gradient(180deg, rgba(251,165,129,1) 30%, rgba(214,149,154,1) 60%, rgba(150,142,169,1) 100%);
     display: flex;
     flex-flow: row wrap;
+    gap: 1em;
     overflow-y: auto;
+    align-items: flex-start;
 }
 
 .container__item {
@@ -54,8 +54,7 @@ background: linear-gradient(180deg, rgba(251,165,129,1) 30%, rgba(214,149,154,1)
     padding: 1em;
     border-radius: 1em;
     border: 2px solid var(--darker);
-    margin: 1%;
-    flex: 0 0 98%;
+    flex: 1 0 98%;
     position: relative;
 }
 
@@ -68,6 +67,7 @@ background: linear-gradient(180deg, rgba(251,165,129,1) 30%, rgba(214,149,154,1)
 
 .container__description {
     font-family: 'Lato', cursive;
+    height: 60px;
 }
 
 .container__link {
@@ -86,13 +86,13 @@ footer {
 
 @media only screen and (min-width: 600px) {
     .container__item {
-        flex: 0 0 48%;
+        flex: 1 0 48%;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .container__item {
-        flex: 0 0 31%;
+        flex: 1 0 31%;
     }
 }
 
@@ -100,12 +100,12 @@ footer {
 
 @media only screen and (min-width: 1280px) {
     .container__item {
-        flex: 0 0 23%;
+        flex: 1 0 23%;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .container__item {
-        flex: 0 0 18%;
+        flex: 1 0 19%;
     }
 }

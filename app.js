@@ -46,6 +46,11 @@ const projects =
             "description": "Form field with label floating like wave",
             "link": "./form_wave_animation/index.html"
         },
+        {
+            "title": "Sound Board",
+            "description": "Buttons with audio effect- practise for audio html tag",
+            "link": "./sound_bar/index.html"
+        },
 
 
     ];

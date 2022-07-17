@@ -51,6 +51,12 @@ const projects =
             "description": "Buttons with audio effect- practise for audio html tag",
             "link": "./sound_bar/index.html"
         },
+        {
+            "title": "Dad jokes",
+            "description": "Easy Example how to use API and show response in asynchronous way",
+            "link": "./dad_jokes/index.html"
+        },
+
 
 
     ];

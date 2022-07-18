@@ -56,6 +56,11 @@ const projects =
             "description": "Easy Example how to use API and show response in asynchronous way",
             "link": "./dad_jokes/index.html"
         },
+        {
+            "title": "Event Key Code",
+            "description": "Very simple mini-project to show event code of key from keyboard. To see a effect just hit a keyboard",
+            "link": "./event_key_codes/index.html"
+        },
 
 
 

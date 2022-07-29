@@ -1,0 +1,71 @@
+<!doctype html>
+
+<head>
+    <title>Flexbox-example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Pisane tuszem</h1>
+        </header>
+        <nav>
+            <ul class="site-nav">
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="#">Artykuły</a></li>
+                <li><a href="#">Ceny</a></li>
+                <li><a href="#"">Wsparcie</a></li>
+                <li class="nav-right">
+                    <a href="#S">O nas</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="flex">
+            <div class="column-main tile">
+                <h2>Praca zespołowa sprawdziła się</h2>
+                <p>Tysiące zespołów z całego świata sprawiły, że
+                    witryna <b>Pisane tuszem</b> umożliwia
+                    komunikowanie się i realizację zadań.</p>
+                <h2>Komunikacja w skali całego świata</h2>
+                <p>Tysiące zespołów z całego świata sprawiły, że
+                    witryna <b>Pisane tuszem</b> umożliwia
+                    komunikowanie się i realizację zadań.</p>
+                <h2>Natychmiastowy dostęp do dokumentów zespołu</h2>
+                <p>Wygodnu dostęp do dokumentów, z opcją ściagania na swój dysk, który usprawni przepływ informacji w firmie </p>
+                <h2>Intuicyjny interfejs</h2>
+                <p>
+                    Witryna <b>Pisane tuszem</b> jest zaprojektowana tak, aby użytkownik czerpiał niezmierną satyfakcję
+                    z korzystania z tego portalu</p>
+            </div>
+            <div class="column-sidebar">
+                <div class="tile">
+                    <form class="login-form">
+                        <h3>Logowanie</h3>
+                        <p>
+                            <label for="username">Nazwa użytkownika</label>
+                            <input id="username" type="text" name="username" />
+                        </p>
+                        <p>
+                            <label for="password">Hasło</label>
+                            <input id="password" type="password" name="password" />
+                        </p>
+                        <button type="submit">Zaloguj się</button>
+                    </form>
+                </div>
+                <div class="tile centered">
+                    <small>Ceny zaczynają się od</small>
+                    <div class="cost">
+                        <span class="cost-dollars">20</span>
+                        <span class="cost-cents">,00</span>
+                        <span class="cost-currency"> zł</span>
+                    </div>
+                    <a class="cta-button" href="#">
+                        Zarejestruj się
+                    </a>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>

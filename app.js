@@ -61,6 +61,11 @@ const projects =
             "description": "Very simple mini-project to show event code of key from keyboard. To see a effect just hit a keyboard",
             "link": "./event_key_codes/index.html"
         },
+        {
+            "title": "Flex-practise",
+            "description": "Page build on CSS Flex by Keith J. Grant (no JS, so this is only view)",
+            "link": "./flex-practise/index.html"
+        },
 
 
 

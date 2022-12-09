@@ -66,6 +66,11 @@ const projects =
             "description": "Page build on CSS Flex by Keith J. Grant (no JS, so this is only view)",
             "link": "./flex-practise/index.html"
         },
+        {
+            "title": "Resize split view",
+            "description": "TO DO",
+            "link": "./resize-split-view/index.html"
+        },
 
 
 

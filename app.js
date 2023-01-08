@@ -66,11 +66,22 @@ const projects =
             "description": "Page build on CSS Flex by Keith J. Grant (no JS, so this is only view)",
             "link": "./flex-practise/index.html"
         },
+        // {
+        //     "title": "Resize split view",
+        //     "description": "TO DO",
+        //     "link": "./resize-split-view/index.html"
+        // },
+        // {
+        //     "title": "PackMovingGO company website",
+        //     "description": "TO DO",
+        //     "link": "./pack-moving-go/index.html"
+        // },
         {
-            "title": "Resize split view",
-            "description": "TO DO",
-            "link": "./resize-split-view/index.html"
+            "title": "FAQ Boxes",
+            "description": "Example of view for Frequantly Asked, Questions, but also can be for science quiz",
+            "link": "./FAQ_boxes/index.html"
         },
+
 
 
 

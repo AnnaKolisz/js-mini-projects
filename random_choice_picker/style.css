@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* https://coolors.co/0d1821-344966-b4cded-f0f4ef-bfcc94*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #344966;
+  
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    font-size: 16px;
+}
+
+h3{
+    color: #F0F4EF;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+}
+
+.textarea{
+    border: none;
+    display: block;
+    color: #344966;
+    padding: 16px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 24px;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: #B4CDED;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 12px 6px;
+}
+
+.tag.highlight{
+    background-color: #E98A15; 
+}

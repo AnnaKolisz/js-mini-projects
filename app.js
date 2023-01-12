@@ -81,6 +81,11 @@ const projects =
             "description": "Example of view for Frequantly Asked, Questions, but also can be for science quiz",
             "link": "./FAQ_boxes/index.html"
         },
+        {
+            "title": "Random Choice Picker",
+            "description": "First entry your choices separated by comma, and check what fate chose for you ",
+            "link": "./random_choice_picker/index.html"
+        },
 
 
 

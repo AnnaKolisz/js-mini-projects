@@ -86,6 +86,11 @@ const projects =
             "description": "First entry your choices separated by comma, and check what fate chose for you ",
             "link": "./random_choice_picker/index.html"
         },
+        {
+            "title": "Netflix Logo",
+            "description": "I make logo of Netflix in CSS for practise",
+            "link": "./netflix_logo/index.html"
+        },
 
 
 

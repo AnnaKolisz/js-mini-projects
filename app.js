@@ -92,7 +92,11 @@ const projects =
             "link": "./netflix_logo/index.html"
         },
 
-
+        {
+            "title": "Animated Navigation",
+            "description": "Brad Traversy Course how to make navigation menu, which animated changed when you click icons",
+            "link": "./animated_navigation/index.html"
+        },
 
 
     ];

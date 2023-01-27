@@ -97,6 +97,11 @@ const projects =
             "description": "Brad Traversy Course how to make navigation menu, which animated changed when you click icons",
             "link": "./animated_navigation/index.html"
         },
+        {
+            "title": "Animated Backbround",
+            "description": "Just practise keyframes",
+            "link": "./animated_background/index.html"
+        },
 
 
     ];

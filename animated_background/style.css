@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-size: 300% 300%; 
+    background-color:  #414073;
+    animation: anime-back 10s infinite ease-in-out;
+}
+
+.card{
+    font-family: 'Amatic SC', cursive;
+    height: 180px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#3C4856;
+    color:  #FFEDCB;
+}
+
+.card h1{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.card p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+@keyframes anime-back {
+    0%{
+        background-color:  #41658A;
+    }
+    15%{
+        background-color:  #0088AA;
+    }
+    25%{
+        background-color:  #00ACB2;
+    }
+    
+    40%{
+        background-color:  #34CCA3;
+    }
+    60%{
+        background-color:  #98E786;
+    }
+    75%{
+        background-color:  #34CCA3;
+
+    }
+    90%{
+        background-color:  #00ACB2;
+
+    }
+    95%{
+        background-color:  #0088AA;
+        
+    }
+    100%{
+        background-color:  #41658A;
+        
+    }
+
+    
+}

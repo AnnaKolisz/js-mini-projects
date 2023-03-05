@@ -102,7 +102,16 @@ const projects =
             "description": "Just practise keyframes",
             "link": "./animated_background/index.html"
         },
-
+        // {
+        //     "title": "Word Masters",
+        //     "description": "Project from Complete Intro to Web Development on Frontend Masters. Game Word Masters",
+        //     "link": "./word_masters/index.html"
+        // },
+        {
+            "title": "Incrementing Counter",
+            "description": "Show how counter is incrementing, is good for show to statistic",
+            "link": "./incrementing_counter/index.html"
+        },
 
     ];
 

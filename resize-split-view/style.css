@@ -1,9 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+:root{
+    --keylime: #E3F09B;
+    --bluegrey: #87B6A7;
+    --salmon: #F79F79;
+    --champagne: #F7D08A;
+    --ebony: #5B5941;
+}
+
+body{
+    margin: 0;
+}
+
 .container{
     display:flex;
+    font-family: 'Lato', sans-serif;
 }
 
 .resizer{
-   border: 1px solid red; 
+   border: 3px solid var(--bluegrey); 
+}
+
+.right{
+    flex: 1 1 49%; 
+    display: flex; 
+    flex-direction: column;
+    background-color: var(--keylime);
+}
+
+
+.left{
+    flex: 1 1 49%;
+    background-color: var(--champagne);
+}
+
+.bottom{
+    flex: 1 1 50%; 
+    background-color: var(--salmon);
+}
+
+.text{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Lato;
+    color: var(--ebony);
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }

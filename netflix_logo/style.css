@@ -31,49 +31,52 @@ body{
     background-color: #E50914;
     transform: skewX(21.5deg);
     position: relative;
-    overflow: hidden;
     box-shadow: 0px 0px 30px -5px #181717;
+    border: none;
+    z-index: 1;
 
 }
 
 .left{
     background-color: #B00000;
     position: relative;
-    overflow: hidden;
+
 }
 
 .middle::after{
+
     content: "";
     position: absolute;
-    left: -10px;
-    bottom: -7px;
-    width: 0;
-    height: 0;
-    border-radius: 90%;
-    border-bottom: 10px solid #181717;
-    border-left: 35px solid transparent;
-    border-right: 90px solid transparent;
-    transform: rotate(5deg);
-
+    background-color: #181717;
+    width: 88px;
+    height: 12px;
+    bottom: -2px;
+    bottom: -4px;
+    left: -2px;
+    border-radius: 10% 99% 0 0;
+    border-color: #181717;
+    transform: rotate(2deg);
   }
 
 
   .left::after {
     content: "";
     position: absolute;
-    left: -15px;
-    bottom: -5px ;
-    width: 0;
-    height: 0;
-    border-radius: 80%;
-    border-bottom: 10px solid #181717;
-    border-left: 25px solid transparent;
-    border-right: 85px solid transparent;
-    transform: rotate(-5deg);
+     background-color: #181717;
+    width: 100px;
+    height: 12px;
+    bottom: -4px;
+    right: -2px;
+    border-radius: 99% 10% 0 0;
+    transform: rotate(-2deg);
   }
+
 .right{
+    position: relative;
     background-color: #B00000;
 }
+
+
 
 
 

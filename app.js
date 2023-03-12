@@ -112,6 +112,12 @@ const projects =
             "description": "Show how counter is incrementing, is good for show to statistic",
             "link": "./incrementing_counter/index.html"
         },
+        {
+            "title": "Drink Water",
+            "description": "Practise of maniputalte DOM - click small cups and check how much is add to big cup",
+            "link": "./drink_water/index.html"
+        },
+
 
     ];
 
